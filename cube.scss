@@ -50,53 +50,53 @@ $size: 100px; // cube length
   transform: rotateX(-90deg) translate3d(0, 0, $size/2);
 }
 .cube1 {
- // margin: 100px;
-  left:12%;
-  top:11.6%;
-  width: $size;
-  height: $size;
-  position: absolute;;
-  perspective: 600px;
-  transform-style: preserve-3d;
-  transform:rotateX(30deg)
-}
-.cube1-face {
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  background: red;
-  opacity: 0.8;
-
-}
-.cube1-face-front {
-  background-image: linear-gradient(#acb6e5, #d2fae3);
-
- // box-shadow: 140px 50px #888888;
-
-   transform: translate3d(0, 0, $size/2);
-} 
-.cube1-face-back {
-  background: rgb(179, 255, 0);
-
-  transform: rotateY(180deg) translate3d(0, 0, $size/2);
-} 
-.cube1-face-left {
-  background: rgb(17, 247, 17);
-  transform: rotateY(-90deg) translate3d(0, 0, $size/2);
-} 
-.cube1-face-right {
-  background-image: linear-gradient(#a127e7, #63e4f5);
-
-  transform: rotateY(90deg) translate3d(0, 0, $size/2);
-} 
-.cube1-face-top {
-  background-image: linear-gradient(#acb6e5, #8efde8);
-
-  transform: rotateX(90deg) translate3d(0, 0, $size/2);
-} 
-.cube1-face-bottom {
-  background-image: linear-gradient(#acb6e5, #8efde8);
-
-
-  transform: rotateX(-90deg) translate3d(0, 0, $size/2);
-}
+  // margin: 100px;
+   left:12%;
+   top:11.6%;
+   width: $size;
+   height: $size;
+   position: absolute;;
+   perspective: 600px;
+   transform-style: preserve-3d;
+   transform:rotateX(30deg)
+ }
+ .cube1-face {
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   background: red;
+   opacity: 0.8;
+ 
+ }
+ .cube1-face-front {
+   background-image: linear-gradient(#acb6e5, #d2fae3);
+ 
+  // box-shadow: 140px 50px #888888;
+ 
+    transform: translate3d(0, 0, $size/2);
+ } 
+ .cube1-face-back {
+   background: rgb(179, 255, 0);
+ 
+   transform: rotateY(180deg) translate3d(0, 0, $size/2);
+ } 
+ .cube1-face-left {
+   background: rgb(17, 247, 17);
+   transform: rotateY(-90deg) translate3d(0, 0, $size/2);
+ } 
+ .cube1-face-right {
+   background-image: linear-gradient(#a127e7, #63e4f5);
+ 
+   transform: rotateY(90deg) translate3d(0, 0, $size/2);
+ } 
+ .cube1-face-top {
+   background-image: linear-gradient(#acb6e5, #8efde8);
+ 
+   transform: rotateX(90deg) translate3d(0, 0, $size/2);
+ } 
+ .cube1-face-bottom {
+   background-image: linear-gradient(#acb6e5, #8efde8);
+ 
+ 
+   transform: rotateX(-90deg) translate3d(0, 0, $size/2);
+ }

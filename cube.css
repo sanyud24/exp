@@ -1,5 +1,5 @@
 .cube {
-  margin: 100px;
+  margin: 5%;
   width: 100px;
   height: 100px;
   position: relative;
@@ -53,6 +53,68 @@
 }
 
 .cube-face-bottom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#acb6e5), to(#8efde8));
+  background-image: linear-gradient(#acb6e5, #8efde8);
+  -webkit-transform: rotateX(-90deg) translate3d(0, 0, 50px);
+          transform: rotateX(-90deg) translate3d(0, 0, 50px);
+}
+
+.cube1 {
+  left: 12%;
+  top: 11.6%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -webkit-perspective: 600px;
+          perspective: 600px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateX(30deg);
+          transform: rotateX(30deg);
+}
+
+.cube1-face {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background: red;
+  opacity: 0.8;
+}
+
+.cube1-face-front {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#acb6e5), to(#d2fae3));
+  background-image: linear-gradient(#acb6e5, #d2fae3);
+  -webkit-transform: translate3d(0, 0, 50px);
+          transform: translate3d(0, 0, 50px);
+}
+
+.cube1-face-back {
+  background: #b3ff00;
+  -webkit-transform: rotateY(180deg) translate3d(0, 0, 50px);
+          transform: rotateY(180deg) translate3d(0, 0, 50px);
+}
+
+.cube1-face-left {
+  background: #11f711;
+  -webkit-transform: rotateY(-90deg) translate3d(0, 0, 50px);
+          transform: rotateY(-90deg) translate3d(0, 0, 50px);
+}
+
+.cube1-face-right {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a127e7), to(#63e4f5));
+  background-image: linear-gradient(#a127e7, #63e4f5);
+  -webkit-transform: rotateY(90deg) translate3d(0, 0, 50px);
+          transform: rotateY(90deg) translate3d(0, 0, 50px);
+}
+
+.cube1-face-top {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#acb6e5), to(#8efde8));
+  background-image: linear-gradient(#acb6e5, #8efde8);
+  -webkit-transform: rotateX(90deg) translate3d(0, 0, 50px);
+          transform: rotateX(90deg) translate3d(0, 0, 50px);
+}
+
+.cube1-face-bottom {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#acb6e5), to(#8efde8));
   background-image: linear-gradient(#acb6e5, #8efde8);
   -webkit-transform: rotateX(-90deg) translate3d(0, 0, 50px);
